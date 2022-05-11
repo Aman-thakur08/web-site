@@ -1,0 +1,101 @@
+.bground{
+    background: rgba(0, 0, 0, 0.7) url('../img/black.jpg');
+    display:flex;
+}
+.crew{
+    width:174px;
+    height:290px;
+    border:1px solid #f1f1f1;
+    perspective:1000px;
+}
+.strawhats{
+    
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.crew:hover .strawhats{
+    transform:rotateY(180deg);
+}
+.captain, .Captain{
+    position:absolute;
+    width:100%;
+    height:100%;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+.captain{
+    background-color: rgb(161, 30, 30);
+    color:black;
+}
+
+.Captain{
+    background-color: dodgerblue;
+    color:rgb(60, 25, 187);
+    transform:rotateY(180deg);
+}
+.crew{
+    width:174px;
+    height:290px;
+    border:1px solid #f1f1f1;
+    perspective:1000px;
+}
+.strawhats{
+    
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.crew:hover .strawhats{
+    transform:rotateY(180deg);
+}
+.swordsman, .Swordsman{
+    position:absolute;
+    width:100%;
+    height:100%;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+.swordsman{
+    background-color: rgb(161, 30, 30);
+    color:black;
+}
+
+.Swordsman{
+    background-color: dodgerblue;
+    color:rgb(60, 25, 187);
+    transform:rotateY(180deg);
+}
+
+
+
+
+
+<!-- <section class="bground">
+			<div class="crew">
+			<div class="strawhats">
+				<div class="captain"><img src="img/luffy.jpg"></div>
+				<div class="Captain">
+						<h2>Monkey D. Luffy</h2>
+						<p>After nearly 20 years of Roger's execution an 18 year old boy went out on a see.Yes his ambition is to become the King of Pirates.
+					</p>
+					
+				</div>
+				<div class="Swordsman"><img src="img/zoro.jpg"></div>
+				<div class="Captain">
+						<h2>Monkey D. Luffy</h2>
+						<p>After nearly 20 years of Roger's execution an 18 year old boy went out on a see.Yes his ambition is to become the King of Pirates.
+					</p>
+					
+				</div>
+			</div>
+			</div>
+		</section> -->
