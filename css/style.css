@@ -223,3 +223,9 @@ hr{
     width:50vw;
     margin-left:25vw;
 }
+@media (max-width:1300px) {
+    .text-big{
+        font-size: 20px;
+    }
+    
+}
