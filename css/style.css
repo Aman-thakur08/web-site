@@ -227,5 +227,15 @@ hr{
     .text-big{
         font-size: 20px;
     }
+    .text-small{
+        padding:14px;
+        font-size: 12px;
+    }
     
+}
+@media (max-width:650px)
+{
+    .text-big{
+        font-size:16px;
+    }
 }
